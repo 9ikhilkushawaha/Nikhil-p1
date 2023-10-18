@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    position: sticky;
+}
+.logo img{
+    width: 23px;
+    max-height: 100%;
+    border: 3px solid rgba(255, 234, 0, 0.756);
+    border-radius: 50px;
+}
+.navbar{
+    display: flex;
+    max-height: 8vh;
+    position: fixed;
+}
+.nav-list{
+    width: 100%;
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    padding: 20px 20px;
+}
+.nav-list li a{
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 5px;
+    margin-left:30px;
+    color: rgb(116, 75, 32);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.nav-list li a:hover{
+    color: rgba(0, 0, 0, 0.916);
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 0.324);
+}
+.right-nav{
+    width: 30%;
+    text-align: right;
+}
+.search{
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 22%;
+    background-color: azure;
+    
+}
+.importantnote{
+    background: linear-gradient(to right,rgb(46, 43, 43),rgba(146, 103, 4, 0.511));
+}
+.bg{
+    background: rgba(17, 16, 16, 0.824) url(img8.webp);
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    background-blend-mode: darken;
+}
+.bg img{
+    width: 100%;
+    height: 100vh;
+}
+.hm{
+    height: 100vh;
+}
+.hm img{
+    width: 8%;
+    height: fit-content;
+    border-style: none;
+    border-radius: 50%;
+    margin-top: 10vh;
+}
+.content{
+    height: 20vh;
+    font-size: larger;
+    color: rgb(192, 178, 178);
+    text-align: center;
+}
+#quote{
+    display: inline-block;
+    font-size: xx-large;
+    color: rgb(0, 247, 235);
+    height: 25vh;
+}
+#quote:hover{
+    color: coral;
+}
+.mncontent{
+    text-align: center;
+    color: rgba(147, 86, 26, 0.829);
+    font-size: large;
+}
+.mncontent h1{
+    color: rgb(207, 78, 23);
+    font-family: 'Courier New', Courier, monospace;
+}
+.hmt{
+    background: linear-gradient(rgba(179, 162, 138, 0.728),rgba(0, 2, 21, 0.897));
+    background-blend-mode: darken;
+}
+.himg{
+    display: flex;
+    margin-right: 15%;
+    padding: 6%;
+}
+.hmt img{
+    width: 50%;
+    padding: 5;
+    margin-left: 5%;
+    height: 2%;
+}
+.himg p{
+    width: 100%;
+    margin: auto;
+    margin-left: 20%;
+    border: 2px solid white;
+    padding: 30px;
+    color: rgb(5, 9, 13);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hmtimg{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 15%;
+}
+.login{
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(146, 145, 145, 0.872);
+    border: 2px solid yellowgreen;
+    width: 15%;
+    padding: 50px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(loginbg2.jpeg);
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+.login input{
+    height: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.login img{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.login:hover{
+    background-color: rgba(21, 21, 21, 0.313);
+    border: 3px solid rgba(148, 112, 27, 0.288);
+}
+.aboutus{
+    color: rgb(147, 73, 20);
+    max-width: 70%;
+    margin: auto;
+    height: 20vh;
+}
+.aboutus p{
+    color: rgb(100, 119, 137);
+}
+.knowmr{
+    border: 2px solid rgb(161, 102, 14);
+    width: 8.5%;
+    text-align: center;
+    margin: auto;
+}
+.knowmr:hover{
+    border: 2px solid black;
+}
+#contact{
+    background-color: rgba(248, 242, 231, 0.6);
+    width: 30%;
+    margin-right: 10%;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid yellow;
+}
+#contact h1{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logcont{
+    display: flex;
+    font-size: ;
+}
+.conta{
+    height: 10vh;
+}
+.contb{
+    color:lightsalmon
+    font-size: larger;
+    height: 10vh;
+}
+.about h1{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right,rgb(0, 0, 0), rgb(77, 124, 140));
+    font-weight: 500;
+    width: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-blend-mode: darken;
+}
+.abthm{
+    background: rgba(40, 39, 39, 0.489) url(hmbg2.jpg);
+    background-blend-mode: darken;
+    overflow: hidden;
+}
+.about{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.842),rgba(41, 71, 90, 0.744));
+    width: 70%;
+    padding: 10px;
+    margin-left: 10%;
+}
+.abtcont{
+    color: rgba(219, 180, 118, 0.676);
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#abtimg{
+    width: 60%;
+}
+.abt{
+    margin-top: 20vh;
+}
+.events{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.events h2{
+    margin-left: 10%;
+    font-size: xx-large;
+}
+.workshop img{
+    width: 40%;
+    padding: 10px;
+}
+.team{
+    background-image: url(hmbg1.jpg);
+    height: 100vh;
+}
+.img1 img{
+    margin-left: 10%;
+    margin-top: 10vh;
+    width: 40%;
+    border: 2px solid red;
+}
+.img2 img{
+    margin-left: 50%;
+    width: 40%;
+    border: 2px solid blue;
+}
